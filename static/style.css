@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+}
+body,.app-body{
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
+}
+body::-webkit-scrollbar{
+    display: none !important;
+    appearance: none !important;
+}
+.fr-image{
+    border-radius: 5px !important;
+    cursor: pointer;
+}
+.fr-image:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(0,0,0,.8);
+}
+.btnBlock{
+    background-color: #dcdde1;
+}
+.index-btn:hover{
+    transform: scaleX(1.05);
+    box-shadow: 0px 0px 20px rgba(0,0,0,.8);
+}
+.w-95{
+    width: 95% !important;
+}
+.homepage{
+    background: rgba(100,100,100,.1);
+}
+.app-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.regForm{
+    height: 80%;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.2);
+}
+.inputField{
+    width: 75%;
+}
